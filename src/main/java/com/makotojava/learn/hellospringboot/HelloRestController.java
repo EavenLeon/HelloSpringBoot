@@ -1,5 +1,6 @@
 package com.makotojava.learn.hellospringboot;
 
+import org.springframework.beans.factory.annotation.Value;
 /*
  * Copyright 2017 Makoto Consulting Group, Inc.
  * 
@@ -20,9 +21,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloRestController {
+	
+  @Value(value = "${book}")
+  private String name;
 
   @RequestMapping("/hello")
   public String hello() {
-    return "Hello. All your base are belong to us.";
+    return "Hello. All your base are belong to us."+name;
   }
 }
