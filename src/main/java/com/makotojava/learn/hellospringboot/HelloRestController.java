@@ -1,5 +1,9 @@
 package com.makotojava.learn.hellospringboot;
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
 import org.springframework.beans.factory.annotation.Value;
 /*
  * Copyright 2017 Makoto Consulting Group, Inc.
@@ -28,5 +32,14 @@ public class HelloRestController {
   @RequestMapping("/hello")
   public String hello() {
     return "Hello. All your base are belong to us."+name;
+  }
+  
+  @RequestMapping("/hello2")
+  public Set<String> hello2() {
+	  String[] staffs = new String[]{"Tom", "Bob", "Jane"};
+	  Set<String> staffsSet = new HashSet<>(Arrays.asList(staffs));
+	  staffsSet.add("Mary"); // ok
+	  staffsSet.remove("Tom"); // ok
+	  return staffsSet;
   }
 }
