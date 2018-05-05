@@ -337,3 +337,317 @@
 2018-05-04 21:29:13.230  INFO 3784 --- [http-nio-8080-exec-3] c.m.learn.hellospringboot.MyAspectJ      : ÊñπÊ≥ïÁéØÁªïproceedÔºåÁªìÊûúÊòØ :[Bob, Jane, Mary]
 2018-05-04 21:29:13.230  INFO 3784 --- [http-nio-8080-exec-3] c.m.learn.hellospringboot.MyAspectJ      : ÊñπÊ≥ïÊúÄÂêéÊâßË°å.....
 2018-05-04 21:29:13.230  INFO 3784 --- [http-nio-8080-exec-3] c.m.learn.hellospringboot.MyAspectJ      : ÊñπÊ≥ïÁöÑËøîÂõûÂÄº : [Bob, Jane, Mary]
+2018-05-04 21:52:09.576  INFO 11976 --- [main] c.makotojava.learn.hellospringboot.App   : Starting App on woyoubupang with PID 11976 (started by Liang in C:\Program Files\JavaDevelop\eclipseSpace\HelloSpringBoot)
+2018-05-04 21:52:09.592 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-05-04 21:52:09.602  INFO 11976 --- [main] c.makotojava.learn.hellospringboot.App   : No active profile set, falling back to default profiles: default
+2018-05-04 21:52:09.679  INFO 11976 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1230f6a: startup date [Fri May 04 21:52:09 CST 2018]; root of context hierarchy
+2018-05-04 21:52:11.273  INFO 11976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-05-04 21:52:11.310  INFO 11976 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-04 21:52:11.311  INFO 11976 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-05-04 21:52:11.323  INFO 11976 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\JavaDevelop\JDK32bit\jdk1.8.0_91\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/JavaDevelop/Java/jre1.8.0_131/bin/server;C:/Program Files/JavaDevelop/Java/jre1.8.0_131/bin;C:/Program Files/JavaDevelop/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\JavaDevelop\JDK32bit\jdk1.8.0_91\bin;C:\Program Files\JavaDevelop\apache-maven-3.5.3\bin;D:\LabProject\‰∫ëÂπ≥Âè∞\putty\;C:;Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\JavaDevelop\VisualSVN Server\bin;C:\Program Files\JavaDevelop\TortoiseSVN\bin;C:\Program Files\JavaDevelop\Git\cmd;C:\Program Files\JavaDevelop\Python\Scripts\;C:\Program Files\JavaDevelop\Python\;C:\Users\ÊàëÂèà‰∏çËÉñ\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JavaDevelop\eclipse\jee-oxygen\eclipse;;.]
+2018-05-04 21:52:11.460  INFO 11976 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-04 21:52:11.461  INFO 11976 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1782 ms
+2018-05-04 21:52:11.626  INFO 11976 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-05-04 21:52:11.631  INFO 11976 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-04 21:52:11.631  INFO 11976 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-04 21:52:11.631  INFO 11976 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-04 21:52:11.632  INFO 11976 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-04 21:52:11.826  INFO 11976 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-04 21:52:12.096  INFO 11976 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1230f6a: startup date [Fri May 04 21:52:09 CST 2018]; root of context hierarchy
+2018-05-04 21:52:12.179  INFO 11976 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.makotojava.learn.hellospringboot.HelloRestController.hello()
+2018-05-04 21:52:12.181  INFO 11976 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello2]}" onto public java.util.Set<java.lang.String> com.makotojava.learn.hellospringboot.HelloRestController.hello2()
+2018-05-04 21:52:12.187  INFO 11976 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-04 21:52:12.188  INFO 11976 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-04 21:52:12.246  INFO 11976 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-04 21:52:12.246  INFO 11976 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-04 21:52:12.430  INFO 11976 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-05-04 21:52:12.472  INFO 11976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-05-04 21:52:12.476  INFO 11976 --- [main] c.makotojava.learn.hellospringboot.App   : Started App in 4.198 seconds (JVM running for 5.125)
+2018-05-04 21:52:12.477 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : Let's inspect the beans provided by Spring Boot:
+2018-05-04 21:52:12.477 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : app
+2018-05-04 21:52:12.477 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : basicErrorController
+2018-05-04 21:52:12.478 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : beanNameHandlerMapping
+2018-05-04 21:52:12.478 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : beanNameViewResolver
+2018-05-04 21:52:12.478 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : characterEncodingFilter
+2018-05-04 21:52:12.478 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : commandLineRunner
+2018-05-04 21:52:12.478 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : conventionErrorViewResolver
+2018-05-04 21:52:12.478 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : defaultServletHandlerMapping
+2018-05-04 21:52:12.478 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : defaultValidator
+2018-05-04 21:52:12.478 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : defaultViewResolver
+2018-05-04 21:52:12.478 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : dispatcherServlet
+2018-05-04 21:52:12.478 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : dispatcherServletRegistration
+2018-05-04 21:52:12.478 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : error
+2018-05-04 21:52:12.478 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : errorAttributes
+2018-05-04 21:52:12.479 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : errorPageCustomizer
+2018-05-04 21:52:12.479 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : errorPageRegistrarBeanPostProcessor
+2018-05-04 21:52:12.479 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : faviconHandlerMapping
+2018-05-04 21:52:12.479 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : faviconRequestHandler
+2018-05-04 21:52:12.479 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : handlerExceptionResolver
+2018-05-04 21:52:12.479 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : helloRestController
+2018-05-04 21:52:12.479 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : hiddenHttpMethodFilter
+2018-05-04 21:52:12.479 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : httpPutFormContentFilter
+2018-05-04 21:52:12.479 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : httpRequestHandlerAdapter
+2018-05-04 21:52:12.480 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : jacksonCodecCustomizer
+2018-05-04 21:52:12.480 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : jacksonObjectMapper
+2018-05-04 21:52:12.480 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : jacksonObjectMapperBuilder
+2018-05-04 21:52:12.480 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : jsonComponentModule
+2018-05-04 21:52:12.480 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : localeCharsetMappingsCustomizer
+2018-05-04 21:52:12.480 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : mappingJackson2HttpMessageConverter
+2018-05-04 21:52:12.480 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : mbeanExporter
+2018-05-04 21:52:12.480 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : mbeanServer
+2018-05-04 21:52:12.480 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : messageConverters
+2018-05-04 21:52:12.481 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : methodValidationPostProcessor
+2018-05-04 21:52:12.481 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : multipartConfigElement
+2018-05-04 21:52:12.481 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : multipartResolver
+2018-05-04 21:52:12.481 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : mvcContentNegotiationManager
+2018-05-04 21:52:12.481 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : mvcConversionService
+2018-05-04 21:52:12.481 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : mvcHandlerMappingIntrospector
+2018-05-04 21:52:12.481 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : mvcPathMatcher
+2018-05-04 21:52:12.481 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : mvcResourceUrlProvider
+2018-05-04 21:52:12.481 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : mvcUriComponentsContributor
+2018-05-04 21:52:12.481 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : mvcUrlPathHelper
+2018-05-04 21:52:12.481 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : mvcValidator
+2018-05-04 21:52:12.481 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : mvcViewResolver
+2018-05-04 21:52:12.481 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : myAspectJ
+2018-05-04 21:52:12.482 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : objectNamingStrategy
+2018-05-04 21:52:12.482 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.aop.config.internalAutoProxyCreator
+2018-05-04 21:52:12.482 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.AutoConfigurationPackages
+2018-05-04 21:52:12.482 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration
+2018-05-04 21:52:12.482 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$CglibAutoProxyConfiguration
+2018-05-04 21:52:12.482 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.condition.BeanTypeRegistry
+2018-05-04 21:52:12.482 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+2018-05-04 21:52:12.482 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+2018-05-04 21:52:12.482 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration
+2018-05-04 21:52:12.483 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration
+2018-05-04 21:52:12.483 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration
+2018-05-04 21:52:12.483 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration
+2018-05-04 21:52:12.483 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration
+2018-05-04 21:52:12.483 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$JacksonCodecConfiguration
+2018-05-04 21:52:12.483 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+2018-05-04 21:52:12.483 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2018-05-04 21:52:12.484 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration
+2018-05-04 21:52:12.484 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration
+2018-05-04 21:52:12.484 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration
+2018-05-04 21:52:12.484 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration
+2018-05-04 21:52:12.484 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration
+2018-05-04 21:52:12.484 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration
+2018-05-04 21:52:12.484 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration
+2018-05-04 21:52:12.484 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration
+2018-05-04 21:52:12.484 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration
+2018-05-04 21:52:12.484 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration
+2018-05-04 21:52:12.485 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration
+2018-05-04 21:52:12.485 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration
+2018-05-04 21:52:12.485 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration
+2018-05-04 21:52:12.485 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration
+2018-05-04 21:52:12.485 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration
+2018-05-04 21:52:12.485 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration
+2018-05-04 21:52:12.485 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration
+2018-05-04 21:52:12.485 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+2018-05-04 21:52:12.485 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration
+2018-05-04 21:52:12.485 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration
+2018-05-04 21:52:12.485 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter
+2018-05-04 21:52:12.485 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration
+2018-05-04 21:52:12.486 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration
+2018-05-04 21:52:12.486 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration
+2018-05-04 21:52:12.486 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration
+2018-05-04 21:52:12.486 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration
+2018-05-04 21:52:12.486 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration
+2018-05-04 21:52:12.486 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata
+2018-05-04 21:52:12.486 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+2018-05-04 21:52:12.486 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2018-05-04 21:52:12.486 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.context.annotation.internalCommonAnnotationProcessor
+2018-05-04 21:52:12.486 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2018-05-04 21:52:12.486 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.context.annotation.internalRequiredAnnotationProcessor
+2018-05-04 21:52:12.486 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.context.event.internalEventListenerFactory
+2018-05-04 21:52:12.486 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.context.event.internalEventListenerProcessor
+2018-05-04 21:52:12.486 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : parameterNamesModule
+2018-05-04 21:52:12.487 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : preserveErrorControllerTargetClassPostProcessor
+2018-05-04 21:52:12.487 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : propertySourcesPlaceholderConfigurer
+2018-05-04 21:52:12.487 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : requestContextFilter
+2018-05-04 21:52:12.487 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : requestMappingHandlerAdapter
+2018-05-04 21:52:12.487 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : requestMappingHandlerMapping
+2018-05-04 21:52:12.487 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : resourceHandlerMapping
+2018-05-04 21:52:12.487 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : restTemplateBuilder
+2018-05-04 21:52:12.487 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : server-org.springframework.boot.autoconfigure.web.ServerProperties
+2018-05-04 21:52:12.487 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : servletWebServerFactoryCustomizer
+2018-05-04 21:52:12.487 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : simpleControllerHandlerAdapter
+2018-05-04 21:52:12.487 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : spring.http.encoding-org.springframework.boot.autoconfigure.http.HttpEncodingProperties
+2018-05-04 21:52:12.487 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+2018-05-04 21:52:12.487 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties
+2018-05-04 21:52:12.488 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties
+2018-05-04 21:52:12.488 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties
+2018-05-04 21:52:12.488 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties
+2018-05-04 21:52:12.488 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties
+2018-05-04 21:52:12.488 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : standardJacksonObjectMapperBuilderCustomizer
+2018-05-04 21:52:12.488 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : stringHttpMessageConverter
+2018-05-04 21:52:12.488 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : tomcatServletWebServerFactory
+2018-05-04 21:52:12.488 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : tomcatServletWebServerFactoryCustomizer
+2018-05-04 21:52:12.488 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : tomcatWebServerFactoryCustomizer
+2018-05-04 21:52:12.488 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : viewControllerHandlerMapping
+2018-05-04 21:52:12.488 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : viewResolver
+2018-05-04 21:52:12.488 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : webServerFactoryCustomizerBeanPostProcessor
+2018-05-04 21:52:12.488 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : websocketContainerCustomizer
+2018-05-04 21:52:12.488 DEBUG 11976 --- [main] c.makotojava.learn.hellospringboot.App   : welcomePageHandlerMapping
+2018-05-04 21:57:03.903  INFO 6580 --- [main] c.makotojava.learn.hellospringboot.App   : Starting App on woyoubupang with PID 6580 (started by Liang in C:\Program Files\JavaDevelop\eclipseSpace\HelloSpringBoot)
+2018-05-04 21:57:03.908 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2018-05-04 21:57:03.910  INFO 6580 --- [main] c.makotojava.learn.hellospringboot.App   : No active profile set, falling back to default profiles: default
+2018-05-04 21:57:03.963  INFO 6580 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@8bd736: startup date [Fri May 04 21:57:03 CST 2018]; root of context hierarchy
+2018-05-04 21:57:05.294  INFO 6580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-05-04 21:57:05.322  INFO 6580 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-05-04 21:57:05.323  INFO 6580 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-05-04 21:57:05.335  INFO 6580 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\JavaDevelop\JDK32bit\jdk1.8.0_91\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/JavaDevelop/Java/jre1.8.0_131/bin/server;C:/Program Files/JavaDevelop/Java/jre1.8.0_131/bin;C:/Program Files/JavaDevelop/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\JavaDevelop\JDK32bit\jdk1.8.0_91\bin;C:\Program Files\JavaDevelop\apache-maven-3.5.3\bin;D:\LabProject\‘∆∆ΩÃ®\putty\;C:;Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\JavaDevelop\VisualSVN Server\bin;C:\Program Files\JavaDevelop\TortoiseSVN\bin;C:\Program Files\JavaDevelop\Git\cmd;C:\Program Files\JavaDevelop\Python\Scripts\;C:\Program Files\JavaDevelop\Python\;C:\Users\Œ“”÷≤ª≈÷\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JavaDevelop\eclipse\jee-oxygen\eclipse;;.]
+2018-05-04 21:57:05.426  INFO 6580 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-05-04 21:57:05.427  INFO 6580 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1464 ms
+2018-05-04 21:57:05.580  INFO 6580 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-05-04 21:57:05.586  INFO 6580 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-04 21:57:05.586  INFO 6580 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-04 21:57:05.587  INFO 6580 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-04 21:57:05.587  INFO 6580 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-04 21:57:05.779  INFO 6580 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-04 21:57:05.990  INFO 6580 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@8bd736: startup date [Fri May 04 21:57:03 CST 2018]; root of context hierarchy
+2018-05-04 21:57:06.072  INFO 6580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello2]}" onto public java.util.Set<java.lang.String> com.makotojava.learn.hellospringboot.HelloRestController.hello2()
+2018-05-04 21:57:06.073  INFO 6580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.makotojava.learn.hellospringboot.HelloRestController.hello()
+2018-05-04 21:57:06.077  INFO 6580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-04 21:57:06.078  INFO 6580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-04 21:57:06.114  INFO 6580 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-04 21:57:06.115  INFO 6580 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-04 21:57:06.308  INFO 6580 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-05-04 21:57:06.355  INFO 6580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-05-04 21:57:06.359  INFO 6580 --- [main] c.makotojava.learn.hellospringboot.App   : Started App in 2.809 seconds (JVM running for 6.346)
+2018-05-04 21:57:06.361 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : Let's inspect the beans provided by Spring Boot:
+2018-05-04 21:57:06.362 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : app
+2018-05-04 21:57:06.362 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : basicErrorController
+2018-05-04 21:57:06.362 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : beanNameHandlerMapping
+2018-05-04 21:57:06.362 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : beanNameViewResolver
+2018-05-04 21:57:06.362 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : characterEncodingFilter
+2018-05-04 21:57:06.362 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : commandLineRunner
+2018-05-04 21:57:06.362 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : conventionErrorViewResolver
+2018-05-04 21:57:06.363 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : defaultServletHandlerMapping
+2018-05-04 21:57:06.364 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : defaultValidator
+2018-05-04 21:57:06.364 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : defaultViewResolver
+2018-05-04 21:57:06.364 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : dispatcherServlet
+2018-05-04 21:57:06.364 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : dispatcherServletRegistration
+2018-05-04 21:57:06.364 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : error
+2018-05-04 21:57:06.364 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : errorAttributes
+2018-05-04 21:57:06.365 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : errorPageCustomizer
+2018-05-04 21:57:06.365 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : errorPageRegistrarBeanPostProcessor
+2018-05-04 21:57:06.365 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : faviconHandlerMapping
+2018-05-04 21:57:06.365 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : faviconRequestHandler
+2018-05-04 21:57:06.365 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : handlerExceptionResolver
+2018-05-04 21:57:06.365 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : helloRestController
+2018-05-04 21:57:06.365 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : hiddenHttpMethodFilter
+2018-05-04 21:57:06.366 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : httpPutFormContentFilter
+2018-05-04 21:57:06.366 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : httpRequestHandlerAdapter
+2018-05-04 21:57:06.366 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : jacksonCodecCustomizer
+2018-05-04 21:57:06.366 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : jacksonObjectMapper
+2018-05-04 21:57:06.366 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : jacksonObjectMapperBuilder
+2018-05-04 21:57:06.366 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : jsonComponentModule
+2018-05-04 21:57:06.366 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : localeCharsetMappingsCustomizer
+2018-05-04 21:57:06.366 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : mappingJackson2HttpMessageConverter
+2018-05-04 21:57:06.367 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : mbeanExporter
+2018-05-04 21:57:06.367 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : mbeanServer
+2018-05-04 21:57:06.367 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : messageConverters
+2018-05-04 21:57:06.367 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : methodValidationPostProcessor
+2018-05-04 21:57:06.367 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : multipartConfigElement
+2018-05-04 21:57:06.367 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : multipartResolver
+2018-05-04 21:57:06.367 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : mvcContentNegotiationManager
+2018-05-04 21:57:06.367 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : mvcConversionService
+2018-05-04 21:57:06.368 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : mvcHandlerMappingIntrospector
+2018-05-04 21:57:06.368 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : mvcPathMatcher
+2018-05-04 21:57:06.368 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : mvcResourceUrlProvider
+2018-05-04 21:57:06.368 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : mvcUriComponentsContributor
+2018-05-04 21:57:06.368 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : mvcUrlPathHelper
+2018-05-04 21:57:06.368 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : mvcValidator
+2018-05-04 21:57:06.368 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : mvcViewResolver
+2018-05-04 21:57:06.369 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : myAspectJ
+2018-05-04 21:57:06.369 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : objectNamingStrategy
+2018-05-04 21:57:06.369 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.aop.config.internalAutoProxyCreator
+2018-05-04 21:57:06.369 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.AutoConfigurationPackages
+2018-05-04 21:57:06.369 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration
+2018-05-04 21:57:06.369 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$CglibAutoProxyConfiguration
+2018-05-04 21:57:06.369 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.condition.BeanTypeRegistry
+2018-05-04 21:57:06.369 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+2018-05-04 21:57:06.370 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+2018-05-04 21:57:06.370 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration
+2018-05-04 21:57:06.370 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration
+2018-05-04 21:57:06.370 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration
+2018-05-04 21:57:06.370 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration
+2018-05-04 21:57:06.370 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration
+2018-05-04 21:57:06.370 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$JacksonCodecConfiguration
+2018-05-04 21:57:06.370 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+2018-05-04 21:57:06.370 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2018-05-04 21:57:06.371 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration
+2018-05-04 21:57:06.371 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration
+2018-05-04 21:57:06.371 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration
+2018-05-04 21:57:06.371 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration
+2018-05-04 21:57:06.371 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration
+2018-05-04 21:57:06.371 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration
+2018-05-04 21:57:06.371 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration
+2018-05-04 21:57:06.371 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration
+2018-05-04 21:57:06.371 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration
+2018-05-04 21:57:06.372 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration
+2018-05-04 21:57:06.372 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration
+2018-05-04 21:57:06.372 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration
+2018-05-04 21:57:06.372 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration
+2018-05-04 21:57:06.372 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration
+2018-05-04 21:57:06.372 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration
+2018-05-04 21:57:06.372 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration
+2018-05-04 21:57:06.372 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration
+2018-05-04 21:57:06.372 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+2018-05-04 21:57:06.373 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration
+2018-05-04 21:57:06.373 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration
+2018-05-04 21:57:06.373 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter
+2018-05-04 21:57:06.373 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration
+2018-05-04 21:57:06.373 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration
+2018-05-04 21:57:06.373 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration
+2018-05-04 21:57:06.373 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration
+2018-05-04 21:57:06.373 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration
+2018-05-04 21:57:06.373 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration
+2018-05-04 21:57:06.373 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata
+2018-05-04 21:57:06.374 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+2018-05-04 21:57:06.374 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2018-05-04 21:57:06.374 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.context.annotation.internalCommonAnnotationProcessor
+2018-05-04 21:57:06.374 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2018-05-04 21:57:06.374 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.context.annotation.internalRequiredAnnotationProcessor
+2018-05-04 21:57:06.374 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.context.event.internalEventListenerFactory
+2018-05-04 21:57:06.374 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : org.springframework.context.event.internalEventListenerProcessor
+2018-05-04 21:57:06.374 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : parameterNamesModule
+2018-05-04 21:57:06.374 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : preserveErrorControllerTargetClassPostProcessor
+2018-05-04 21:57:06.374 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : propertySourcesPlaceholderConfigurer
+2018-05-04 21:57:06.374 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : requestContextFilter
+2018-05-04 21:57:06.375 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : requestMappingHandlerAdapter
+2018-05-04 21:57:06.375 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : requestMappingHandlerMapping
+2018-05-04 21:57:06.375 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : resourceHandlerMapping
+2018-05-04 21:57:06.375 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : restTemplateBuilder
+2018-05-04 21:57:06.375 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : server-org.springframework.boot.autoconfigure.web.ServerProperties
+2018-05-04 21:57:06.375 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : servletWebServerFactoryCustomizer
+2018-05-04 21:57:06.375 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : simpleControllerHandlerAdapter
+2018-05-04 21:57:06.375 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : spring.http.encoding-org.springframework.boot.autoconfigure.http.HttpEncodingProperties
+2018-05-04 21:57:06.375 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+2018-05-04 21:57:06.376 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties
+2018-05-04 21:57:06.376 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties
+2018-05-04 21:57:06.376 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties
+2018-05-04 21:57:06.376 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties
+2018-05-04 21:57:06.376 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties
+2018-05-04 21:57:06.376 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : standardJacksonObjectMapperBuilderCustomizer
+2018-05-04 21:57:06.376 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : stringHttpMessageConverter
+2018-05-04 21:57:06.376 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : tomcatServletWebServerFactory
+2018-05-04 21:57:06.376 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : tomcatServletWebServerFactoryCustomizer
+2018-05-04 21:57:06.376 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : tomcatWebServerFactoryCustomizer
+2018-05-04 21:57:06.376 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : viewControllerHandlerMapping
+2018-05-04 21:57:06.376 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : viewResolver
+2018-05-04 21:57:06.377 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : webServerFactoryCustomizerBeanPostProcessor
+2018-05-04 21:57:06.377 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : websocketContainerCustomizer
+2018-05-04 21:57:06.377 DEBUG 6580 --- [main] c.makotojava.learn.hellospringboot.App   : welcomePageHandlerMapping
+2018-05-04 21:57:55.789  INFO 6580 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-04 21:57:55.789  INFO 6580 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-04 21:57:55.809  INFO 6580 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2018-05-04 21:57:55.841  INFO 6580 --- [http-nio-8080-exec-2] c.m.learn.hellospringboot.MyAspectJ      : ∑Ω∑®ª∑»∆start.....
+2018-05-04 21:57:55.841  INFO 6580 --- [http-nio-8080-exec-2] c.m.learn.hellospringboot.MyAspectJ      : URL : http://localhost:8080/hello
+2018-05-04 21:57:55.841  INFO 6580 --- [http-nio-8080-exec-2] c.m.learn.hellospringboot.MyAspectJ      : HTTP_METHOD : GET
+2018-05-04 21:57:55.841  INFO 6580 --- [http-nio-8080-exec-2] c.m.learn.hellospringboot.MyAspectJ      : IP : 0:0:0:0:0:0:0:1
+2018-05-04 21:57:55.843  INFO 6580 --- [http-nio-8080-exec-2] c.m.learn.hellospringboot.MyAspectJ      : CLASS_METHOD : com.makotojava.learn.hellospringboot.HelloRestController.hello
+2018-05-04 21:57:55.843  INFO 6580 --- [http-nio-8080-exec-2] c.m.learn.hellospringboot.MyAspectJ      : ARGS : []
+2018-05-04 21:57:55.849  INFO 6580 --- [http-nio-8080-exec-2] c.m.learn.hellospringboot.MyAspectJ      : ∑Ω∑®ª∑»∆proceed£¨Ω·π˚ « :Hello. All your base are belong to us.spring
+2018-05-04 21:57:55.849  INFO 6580 --- [http-nio-8080-exec-2] c.m.learn.hellospringboot.MyAspectJ      : ∑Ω∑®◊Ó∫Û÷¥––.....
+2018-05-04 21:57:55.850  INFO 6580 --- [http-nio-8080-exec-2] c.m.learn.hellospringboot.MyAspectJ      : ∑Ω∑®µƒ∑µªÿ÷µ : Hello. All your base are belong to us.spring

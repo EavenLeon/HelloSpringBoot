@@ -1,4 +1,4 @@
-package com.makotojava.learn.hellospringboot;
+package hust.iwsrc.hellospringboot;
 
 import java.util.Arrays;
 

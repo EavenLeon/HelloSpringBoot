@@ -1,4 +1,4 @@
-package com.makotojava.learn.hellospringboot;
+package hust.iwsrc.hellospringboot;
 
 import java.util.Arrays;
 
@@ -23,7 +23,6 @@ public class App {
   @Bean
   public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
     return args -> {
-
       log.debug("Let's inspect the beans provided by Spring Boot:");
 
       String[] beanNames = ctx.getBeanDefinitionNames();
@@ -31,7 +30,6 @@ public class App {
       for (String beanName : beanNames) {
         log.debug(beanName);
       }
-
     };
   }
 }
