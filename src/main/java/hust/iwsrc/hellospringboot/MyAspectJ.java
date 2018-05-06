@@ -30,7 +30,7 @@ public class MyAspectJ {
 	
 	private static Logger LOGGER = LoggerFactory.getLogger(MyAspectJ.class); 
 	
-	@Pointcut("execution(* com.makotojava.learn.hellospringboot.HelloRestController.*(..))")
+	@Pointcut("execution(* hust.iwsrc.hellospringboot.HelloRestController.*(..))")
 	private void webLog(){}
 	
     @Before("webLog()")  
