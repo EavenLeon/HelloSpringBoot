@@ -24,16 +24,15 @@ public class UserDaoImpl implements UserDao{
     
 	@Override
 	public void insertUser(User user) {
-        String sql = "insert into user(id,username,password,department,telphone,address,allot_resource)values(?,?,?,?,?,?,?)";
-        Object args[] = {user.getId(),user.getUsername(),user.getPassword(),user.getDepartment(),
-        		user.getTelphone(),user.getAddress(),user.getAllot_resource()}; 
+        String sql = "insert into stu(id,name)values(?,?)";
+        Object args[] = {user.getId(),user.getUsername()}; 
 
-        System.out.println(jdbcTemplate.update(sql, args));
+        jdbcTemplate.update(sql, args);
 	}
 	
 	@Override
 	public List<Map<String, Object>> selectUser() {
-        String sql = "select * from user";
+        String sql = "select * from stu";
 
         return jdbcTemplate.queryForList(sql);
 	}

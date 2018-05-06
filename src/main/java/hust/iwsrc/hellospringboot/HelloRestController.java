@@ -26,14 +26,14 @@ public class HelloRestController {
   private UserDao userDao;
   
   @RequestMapping(value="/addUser" , method= RequestMethod.GET)
-  public String hello(@RequestParam("id") Integer id,@RequestParam("username") String name) {
+  public String hello(@RequestParam("id") Integer id,@RequestParam("name") String name) {
 	  
 	  User user = new User();
 	  user.setId(id);
 	  user.setUsername(name);
       userDao.insertUser(user);
       
-    return "Hello. All your base are belong to us."+name;
+    return "User: "+ "id: " + id + "name: " + name + "Succeed";
   }
   
   @RequestMapping("/users")

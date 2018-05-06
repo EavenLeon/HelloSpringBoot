@@ -21,12 +21,6 @@ public class UserDaoTest {
 	public void test() {
         User user = new User();
         user.setId(1223123412);
-        user.setAddress("华中科技大学");
-        user.setDepartment("shuidian");
-        user.setPassword("adfasdfasdfasdfasdfasddf");
-        user.setTelphone("1294923049");
-        user.setUsername("siobaoma");
-        user.setAllot_resource("Y");
         UserDao userDao = new UserDaoImpl();
         userDao.insertUser(user);
 	}

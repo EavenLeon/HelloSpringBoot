@@ -17,18 +17,7 @@ public class User implements Serializable{
 	
 	private int id;
 	private String username;
-	private String password;
-	private String department;
-	private String telphone;
-	private String address;
-	private String allot_resource;
 	
-	public String getAllot_resource() {
-		return allot_resource;
-	}
-	public void setAllot_resource(String allot_resource) {
-		this.allot_resource = allot_resource;
-	}
 	public int getId() {
 		return id;
 	}
@@ -40,31 +29,6 @@ public class User implements Serializable{
 	}
 	public void setUsername(String userName) {
 		this.username = userName;
-	}
-	public String getPassword() {
-		return password;
-	}
-	public void setPassword(String password) {
-		this.password = password;
-	}
-
-	public String getDepartment() {
-		return department;
-	}
-	public void setDepartment(String departMent) {
-		this.department = departMent;
-	}
-	public String getTelphone() {
-		return telphone;
-	}
-	public void setTelphone(String telphone) {
-		this.telphone = telphone;
-	}
-	public String getAddress() {
-		return address;
-	}
-	public void setAddress(String address) {
-		this.address = address;
 	}
 	
 	@Override
